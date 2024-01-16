@@ -1,0 +1,8 @@
+credentials.json
+english_translation.json
+/FinalTranslationJson
+/node_modules
+/originalEnglishValuesArray
+/originalKeysArray
+/translatedArrays
+.env
