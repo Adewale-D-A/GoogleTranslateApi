@@ -19,6 +19,10 @@
 > "universe_domain": "googleapis.com"
 > }
 
+### how to run
+
+> npm objectTranslator.js or npm index.js
+
 ### Reference
 
 > For tutorial used as reference <a href="https://www.youtube.com/watch?v=Sjl9ilOpHG8" target="_blank">Raj Kapadia</a
