@@ -3,7 +3,7 @@ const { Translate } = require("@google-cloud/translate").v2;
 require("dotenv").config();
 
 // Your credentials
-const JsonEnglish = require("./mobileTranslationData/originalEnglish.json");
+const JsonEnglish = require("./mobileTranslationData/originalEnglish.json"); //json file to translate
 const CREDENTIALS = require("./credentials.json");
 
 // Configuration for the client
@@ -12,6 +12,7 @@ const translate = new Translate({
   projectId: CREDENTIALS.project_id,
 });
 
+//translate function
 const translateText = async (text, targetLanguage) => {
   try {
     let [response] = await translate.translate(text, targetLanguage);
