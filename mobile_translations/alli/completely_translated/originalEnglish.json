@@ -1,0 +1,470 @@
+{
+  "translation": {
+    "welcome": {
+      "welcomeText1": "Welcome to FarmSmarter",
+      "welcomeText2": "We are here to help you grow the seeds",
+      "welcomeText3": "of success!",
+      "loginBtn": "login",
+      "signUpBtn": "sign up"
+    },
+    "login": {
+      "title": "Welcome back to FarmSmarter\nwe are so pleased to see you again.",
+      "title2": "Let’s get you back to where you left off.",
+      "validEmailError": "enter a valid email address",
+      "email": "email",
+      "password": "password",
+      "validPasswordError": "password must be greater than 7 character",
+      "loginBtn": "log in",
+      "signUpBtn": "sign up",
+      "or": "________________ or ________________",
+      "anonymous": "anonymously sign in",
+      "newUser": "new user?"
+    },
+    "signup": {
+      "title": "Welcome to FarmSmarter",
+      "title2": "We are so pleased to see you .",
+      "title3": "Let’s get you started",
+      "firstName": "first name",
+      "nameError": "name length must be greater than 2",
+      "lastName": "last name",
+      "email": "email address",
+      "emailError": "enter a valid email address",
+      "countryPickerError": "country name is required",
+      "phoneNumber": "phone number",
+      "phoneError": "phone number must be greater than 8 digits",
+      "password": "password",
+      "passwordError": "password must be greater than 7 character",
+      "confirmPassword": "confirm password",
+      "confirmPasswordError": "password did not match",
+      "next": "next",
+      "signup": "sign up",
+      "otherOptions": "other options",
+      "google": "google",
+      "twitter": "x/twitter",
+      "existingUser": "existing user?",
+      "loginBtn": "log in",
+      "terms": "By signing up, I understand and agree to the FarmSmarter\n",
+      "condition": "Terms & Conditions",
+      "sign up": "sign up"
+    },
+    "farmType": {
+      "profileSetup": "profile setup",
+      "title": "Welcome to FarmSmarter.\nLet's get to know you so we can give the\nbest service.",
+      "setupWelcomeText3": "Which of these best describes you ?",
+      "setupOptionFinance": "Finance",
+      "setupOptionAgriculturalSupply": "Agricultural Supply",
+      "setupOptionWholesaleBuyer": "Wholesale buyer",
+      "setupOptionTransporter": "Transporter",
+      "setupOptionFarmer": "Farmer",
+      "next": "next"
+    },
+    "gender": {
+      "setupGenderText": "Pick the one that suits you...",
+      "male": "male",
+      "female": "female",
+      "other": "other",
+      "next": "next"
+    },
+    "dob": {
+      "title": "We'd love to celebrate your birthday!!",
+      "dateOfBirth": "date of birth",
+      "enterDate": "enter date",
+      "next": "next",
+      "selectDate": "please select date of birth.",
+      "lessAge": "user age must be greater than 14"
+    },
+    "verifyEmail": {
+      "title": "That's great, your profile is complete.\nNow we just need you to verify your email address by clicking the link in the email we just sent you.\nThen you can get started with building your farm.",
+      "title2": "You can view and edit your profile at any time by clicking on the profile icon in the top right of the screen.\nIf the email hasn't arrived just click the 'resend'",
+      "resend": "resend",
+      "verified": "email verified"
+    },
+    "profileImage": {
+      "title": "Please check your emails to verify your email address before continuing - if you can't see our verification message it may be in your spam or junk message folder.",
+      "title2": "Choose a FarmSmarter avatar or upload your own profile image here.",
+      "next": "next",
+      "selectImage": "please select Farmsmarter avatar or upload your own profile image to proceed."
+    },
+    "farmName": {
+      "farmSetup": "farm set up",
+      "selectName": "please enter farm name to proceed.",
+      "title": "To setup your farm we need a few details to be sure we give you the best advice",
+      "title2": "Let's start by giving your farm a name.",
+      "name": "farm name",
+      "enterName": "enter farm name",
+      "next": "next"
+    },
+    "farmSetup": {
+      "title": "farm set up",
+      "title2": "By confirming your land ownership status we can support you in registering your land and accessing finance later on.",
+      "selectError": "please select farm ownership status to proceed.",
+      "farmOwner": "Farm owner",
+      "longTerm": "Long term lease",
+      "otherPlease": "Other - please specify",
+      "other": "other",
+      "next": "next",
+      "rent": "Rent"
+    },
+    "farmMap": {
+      "create": "creating your farm...",
+      "title": "Is this the correct location for your farm? If not, you can hold and drag the map pin to the correct place on the map. We will use this location for farm deliveries and collections later on.",
+      "yesPlease": "yes, this is my location",
+      "loading": "loading map..."
+    },
+    "app": {
+      "home": "home",
+      "crop": "crop clinic",
+      "chat": "chat",
+      "info": "chat info..."
+    },
+    "home": {
+      "farmNotFound": "You don't have a farm yet – now you can add your first farm.",
+      "goFarm": "go to farm",
+      "enterPrise": "farm enterprise",
+      "createProfile": "create profile",
+      "deleteFarm": "delete farm?",
+      "deleteMsg": "This will permanently delete all fields, maps, crops and history associated with your farm.",
+      "delete": "delete",
+      "farmChange": "farm acreage",
+      "addFarm": "add farm"
+    },
+    "farm": {
+      "goFarm": "go to field",
+      "loading": "loading farm details...",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "weather": "weather",
+      "acreage": "farm acreage",
+      "deleteTitle": "delete field?",
+      "deleteMsg": "This will permanently delete all maps, crops and information registered for this field in your farm.",
+      "delete": "delete",
+      "addFarm": "add field"
+    },
+    "fieldName": {
+      "selectNameError": "please enter field name to proceed.",
+      "addField": "add a new field",
+      "farmName": "Let's start by giving your farm a name.",
+      "setup": "field set up",
+      "fieldName": "field name",
+      "enterFieldName": "enter field name",
+      "mapField": "now we can map your field",
+      "mapWalk": "map by walking",
+      "mapDriving": "map by drawing",
+      "doThis": "do this later?"
+    },
+    "navBar": {
+      "farmEnterprise": "farm enterprise",
+      "cropClinic": "crop clinic",
+      "chat": "chat",
+      "communityChat": "community chat",
+      "cropInfo": "crop information",
+      "directMsg": "direct message",
+      "transport": "transport",
+      "title": "we calculate the crop yield according to the area of your field and an average of you region",
+      "title2": "The yield is a dry weight measure, not the weight at harvest time.",
+      "title3": "If you have multiple crops in the field then the yield will be proportionately lower than shown.",
+      "walkText": "Click on the walk button icon as soon as you are ready to start walking round your field.",
+      "profile": "profile",
+      "settings": "settings",
+      "logout": "logout"
+    },
+    "fields": {
+      "deletingCrop": "deleting crop from field...",
+      "question": "what was your total yield from this crop?",
+      "title": "A good estimate is fine, we can help you monitor your field success as we go along.",
+      "weight": "weight",
+      "inputNumber": "Input number",
+      "harvestDate": "enter harvest date",
+      "saveHarvest": "when you have save this harvest you can choose a new crop to plant in this field.",
+      "save": "save",
+      "acreage": "field acreage",
+      "tips": "field management tips",
+      "tempSuggession": "This is where we can give temporary suggestions...",
+      "multiple": "if you have multiple crops in the field then",
+      "proportional": "the yield will be proportionately lowe.",
+      "cropDelete": "delete crop?",
+      "deleteMsg": "This will permanently delete all information registered for this crop in your field.",
+      "delete": "delete",
+      "plantingDate": "Planting date:",
+      "averageYield": "average yield",
+      "harvestThis": "harvest this crop",
+      "btn": "add crop"
+    },
+    "drawFields": {
+      "mapFieldError": "please map field to proceed.",
+      "fieldBoundary": "Field boundary map successfully!",
+      "placePin": "Place the pin on your field. click on the pencil icon after placing the pin on your field. Tab to draw round your field boundary.",
+      "save": "save"
+    },
+    "walkField": {
+      "loadingMap": "loading map",
+      "selectError": "please map field to proceed.",
+      "boundary": "Field boundary map successfully!",
+      "title": "FarmSmarter will build your field map as you walk around your field boundary.",
+      "clickBtn": "To start, click the walk button.",
+      "save": "save"
+    },
+    "weather": {
+      "loadingWeather": "loading weather...",
+      "humidity": "Humidity",
+      "wind": "Wind",
+      "hourly": "Hourly",
+      "forecast": "Forecast",
+      "now": "Now",
+      "upcoming": "Upcoming days",
+      "today": "Today"
+    },
+    "cropWelcome": {
+      "terms": "By letting us know what you grew last season in the field. FarmSmarter can give suggestion based on your field location and start to build a crop relationship plan to help your farm to be more productive.",
+      "dont": "Don't worry - if the field is new we can still give suggestions, just let us know!",
+      "lastCrop": "my last crops",
+      "noCrop": "no crops"
+    },
+    "crops": {
+      "mainCrop": "1st - main crop",
+      "secondCrop": "2nd - secondary crop",
+      "thirdCrop": "3rd - additional crop",
+      "title": "The crop suggestions are designed to give your crops and your soil a healthy start. By rotating different crop types we can reduce fertilizer use and naturally improve the soil.",
+      "title2": "If you want to make a different choice your yields may not improve.",
+      "chooseCrop": "choose another crop",
+      "title3": "FarmSmarter suggests that you choose one of these crops for the best chance of success.",
+      "loadingCrops": "loading crops...",
+      "noCrops": "No crop rotation was found for this crop family",
+      "priority": "select crop priority",
+      "save": "save"
+    },
+    "oldCrop": {
+      "title": "Please enter your crop in the text box below, we will not be able to give the best rotation advice but will add this to our future crop choices as soon as we can!",
+      "name": "crop name",
+      "next": "next",
+      "show": "crop not shown?",
+      "searchCrop": "search for a crop",
+      "selectCrop": "select the main crop you grew in this field last season.",
+      "loadCrop": "loading crops..."
+    },
+    "plantPlan": {
+      "plantDate": "planting date is required!",
+      "enterDate": "Enter Planting Date",
+      "title": "FarmSmarter supports intercropping up to three crops in one field. But, you can stick with a single crop.",
+      "title2": "It is important that multiple crops do not compete for nutrients, so we aim to give complementary crop suggestions in your crop rotation wherever possible",
+      "fieldPlant": "field planting plan",
+      "question": "Will you grow another crop in this field ?",
+      "yesBtn": "yes, register another crop",
+      "finished": "finished"
+    },
+    "yield": {
+      "title": "FarmSmarter will track the productivity of your farm from one season to the next.\nBy giving your last yield for this field we can help you monitor the health of your field over time.",
+      "title2": "Choose the appropriate measure for your crop and we will calculate the rest for you!",
+      "lastYield": "Why give the last yield?",
+      "loading": "saving last yield crop...",
+      "question": "what was your total yield from this crop last season ?",
+      "fineEstimate": "A good estimate is fine, we can help you monitor your field success as we go along.",
+      "weight": "weight",
+      "input": "Input number",
+      "measure": "select measure",
+      "next": "next",
+      "error": "weight and measurement unit is required!"
+    },
+    "noCrop": {
+      "title": "Please enter your crop in the text box below, we will not be able to give the best rotation advice but will add this to our future crop\nchoices as soon as we can!",
+      "name": "crop name",
+      "next": "next",
+      "shown": "crop not shown?",
+      "searchCrop": "search for a crop",
+      "cropGrow": "select the crop you want to grow.",
+      "loading": "loading crops..."
+    },
+    "fieldPlant": {
+      "fieldPlanting": "field planting plan",
+      "mainCrop": "main crop",
+      "name": "crop name",
+      "plantDate": "Enter Planting Date",
+      "secondaryCrop": "secondary crop",
+      "additional": "additional crop",
+      "question": "Will you grow another crop in this field ?",
+      "confirm": "yes, register another crop",
+      "finish": "finished"
+    },
+    "drawField": {
+      "title": "Click the pencil to start field map. Then drag the blue pin to the starting point of your field border.",
+      "title2": "Tap to generate lines along the field boundary. FarmSmarter will draw a line between the pins for you. Let go and continue in this way until\nyour field boundary is complete.",
+      "start": "start"
+    },
+    "setting": {
+      "settingLabel": "settings",
+      "permissionLabel": "permissions"
+    },
+    "profile": {
+      "title": "profile",
+      "fName": "first name",
+      "fnError": "enter a valid first name",
+      "lName": "last name",
+      "lnError": "enter a valid last name",
+      "email": "email",
+      "emailError": "enter a valid email address",
+      "number": "phone number",
+      "numberError": "phone number must be greater than 8 digits",
+      "save": "save"
+    },
+    "pubProfile": {
+      "loading": "loading profile...",
+      "fullName": "fullname:",
+      "type": "user type:",
+      "email": "email:",
+      "number": "telephone number:",
+      "dob": "date of birth:",
+      "edit": "edit"
+    },
+    "cong": {
+      "fullName": "full name",
+      "userName": "*username",
+      "userType": "*user type",
+      "email": "email address",
+      "number": "telephone number",
+      "country": "*country",
+      "dob": "date of birth",
+      "congratulation": "Congratulations,",
+      "looking": "your profile is looking great!",
+      "info": "*These items are visible to other users.",
+      "edit": "edit"
+    },
+    "farmAddress": {
+      "setError": "farm coordinates or address is required to proceed.",
+      "title": "Your farm location will be used when you book delivery or collection through FarmSmarter app.",
+      "goAddress": "go to map",
+      "or": "or enter your farm delivery address",
+      "house": "* house name / number",
+      "enterHouse": "enter house name or number",
+      "houseError": "house name / number is required",
+      "startName": "* street name",
+      "enterStreet": "enter street name",
+      "streetError": "street name is required",
+      "landmark": "landmark",
+      "enterLand": "enter landmark",
+      "village": "village/town",
+      "enterVillage": "enter village or town",
+      "state": "* state",
+      "enterState": "enter state",
+      "stateError": "state is required",
+      "country": "* country",
+      "enterCountry": "enter country",
+      "countryError": "country is required",
+      "post": "post code",
+      "enterPost": "enter post code",
+      "next": "next"
+    },
+    "cropInfo": {
+      "family": "crop family",
+      "soil": "soil and land",
+      "growing": "planting and growing",
+      "irrigation": "irrigation",
+      "weeding": "weeding",
+      "fertiliser": "fertiliser",
+      "harvest": "harvest time",
+      "postHar": "post-harvest",
+      "storage": "storage and transport",
+      "pets": "pests and diseases"
+    },
+    "disease": {
+      "type": "disease type",
+      "infection": "growth stages for infection",
+      "symptoms": "symptom progression",
+      "transmission": "transmission",
+      "prevention": "prevention",
+      "treatment": "treatment",
+      "affected": "Plants affected"
+    },
+    "cropDoc": {
+      "clinic": "crop clinic",
+      "wrong": "disease looks wrong?",
+      "thanks": "Thanks for letting us know!",
+      "title": "If the diagnosis looks wrong we will make a note and review. In the meantime you can see a full list of disease here:",
+      "library": "go to disease library",
+      "analyzing": "analyzing photo...",
+      "hello": "Hello, I’m the farm smarter crop doctor,",
+      "let": "let’s have a look a the problem.",
+      "noCrop": "no crop disease dectected!",
+      "lookWrong": "this looks wrong!",
+      "find": "find out more",
+      "try": "try again"
+    },
+    "cropClinic": {
+      "clinic": "crop clinic",
+      "hello": "Hello, I’m the farm smarter crop doctor,",
+      "let": "let’s have a look a the problem.",
+      "btn": "choose the crop affected"
+    },
+    "affected": {
+      "clinic": "crop clinic",
+      "search": "search",
+      "select": "select the crop affected.",
+      "loading": "loading crops...",
+      "next": "next"
+    },
+    "cropScreen": {
+      "search": "search",
+      "loading": "loading crops...",
+      "crop": "crops",
+      "pets": "disease and pests",
+      "cropInfo": "crop information"
+    },
+    "chatForum": {
+      "title": "choose forum"
+    },
+    "community": {
+      "title": "community chat",
+      "loading": "loading communities...",
+      "title2": "Before you start chatting in this forum, let's choose the reach of your chat",
+      "local": "local",
+      "localMsg": "20 mile radius from your registered location",
+      "regional": "regional",
+      "regionalMsg": "your region, state or county",
+      "national": "national",
+      "nationalMsg": "your registered country",
+      "global": "global",
+      "globalMsg": "the Farmsmarter global community"
+    },
+    "appSetting": {
+      "loading": "sending reset password link...",
+      "welcome": "We will send an email with a password\nreset link.",
+      "no": "no - it was a mistake",
+      "confirm": "yes please"
+    },
+    "signOption": {
+      "title": "Set up a secondary sign in method to\nenable seamless authentication",
+      "number": "phone number",
+      "sendCode": "send code",
+      "modalTitle": "please enter the  code we sent to\nyour registered mobile number",
+      "enterCode": "enter code",
+      "resend": "resend",
+      "signup": "sign up"
+    },
+    "delete": {
+      "title": "We are sorry to see you go - please\nlet us know why you're leaving us so\nwe can improve our service in future..",
+      "stop": "I stopped farming",
+      "privacy": "Privacy issues",
+      "need": "FarmSmarter doesn't do what I need",
+      "found": "I found a different app",
+      "accDel": "delete account",
+      "loading": "deleing account...",
+      "confirm": "are you sure you want to go?",
+      "sorry": "We would be sorry to lose you!",
+      "info": "On account deletion, all your personal and farm information will be deleted.",
+      "anyTime": "You can come back and register a new account at any time.",
+      "no": "no - it was a mistake",
+      "yes": "yes i'm leaving"
+    },
+    "permissionTab": {
+      "location": "location access",
+      "microphone": "microphone access",
+      "push": "push notifications",
+      "camera": "camera access",
+      "storage": "storage access",
+      "analytics": "analytics"
+    },
+
+    "setupWelcomeText1": "Welcome to FarmSmarter -",
+    "setupWelcomeText2": "Let's get to know you so we can give the best service.",
+    "welcomeText4": "Let’s get you started"
+  }
+}
