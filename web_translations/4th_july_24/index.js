@@ -3,9 +3,9 @@ const { Translate } = require("@google-cloud/translate").v2;
 require("dotenv").config();
 
 // Your credentials
-const JsonEnglish = require("./mobileTranslationData/originalEnglish.json"); //json file to translate
+const JsonEnglish = require("./original_english.json"); //json file to translate
 const CREDENTIALS = require("../../credentials.json");
-
+const languages = require("./languages.json");
 // Configuration for the client
 const translate = new Translate({
   credentials: CREDENTIALS,
@@ -24,9 +24,9 @@ const translateText = async (text, targetLanguage) => {
 };
 
 // console.log(translationFile);
-const translateRequest = async () => {
+const translateRequest = async ({ langCode }) => {
   let translationFile = {};
-  originalDataFile = JsonEnglish.translation; //extract parent object from original translation object
+  originalDataFile = JsonEnglish; //extract parent object from original translation object
   const layerOne = Object.keys(originalDataFile);
   for (let keyOne of layerOne) {
     if (originalDataFile[keyOne].constructor === Object) {
@@ -37,7 +37,7 @@ const translateRequest = async () => {
         const text = originalDataFile[keyOne][keyTwo];
         // console.log(text);
         if (typeof text === "string" || text instanceof String) {
-          const translateOutput = await translateText(text, "yo"); //french - 'fr', hausa - 'ha', igbo - 'ig', portuguese - 'pt-PT', spanish - 'es', yoruba - 'yo'
+          const translateOutput = await translateText(text, langCode); //french - 'fr', hausa - 'ha', igbo - 'ig', portuguese - 'pt-PT', spanish - 'es', yoruba - 'yo'
 
           layerTwoObject = {
             ...layerTwoObject,
@@ -52,7 +52,7 @@ const translateRequest = async () => {
     } else {
       //if key is not an object
       const text = originalDataFile[keyOne];
-      const translateOutput = await translateText(text, "yo"); //french - 'fr', hausa - 'ha', igbo - 'ig', portuguese - 'pt-PT', spanish - 'es', yoruba - 'yo'
+      const translateOutput = await translateText(text, langCode); //french - 'fr', hausa - 'ha', igbo - 'ig', portuguese - 'pt-PT', spanish - 'es', yoruba - 'yo'
       translationFile = {
         ...translationFile,
         [keyOne]: translateOutput,
@@ -62,11 +62,11 @@ const translateRequest = async () => {
   return translationFile;
 };
 
-const writeTranslation = async () => {
-  const translatedResult = await translateRequest();
+const writeTranslation = async ({ langCode, name }) => {
+  const translatedResult = await translateRequest({ langCode: langCode });
 
   fs.writeFile(
-    "mobileTranslationData/yorubaVersion.json",
+    `./translated/${name}.json`,
     JSON.stringify(translatedResult),
     (err) => {
       if (err) {
@@ -78,4 +78,16 @@ const writeTranslation = async () => {
   );
 };
 
-writeTranslation();
+const loopFunction = async () => {
+  for (let index = 0; index < languages.length; index++) {
+    const element = languages[index];
+    if (!element?.invalid) {
+      await writeTranslation({
+        langCode: element?.language_code,
+        name: element?.name,
+      });
+    }
+  }
+};
+
+loopFunction();
