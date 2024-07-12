@@ -23,23 +23,23 @@
   { "name": "indonesian", "language_code": "id" },
   { "name": "javanese", "language_code": "jv" },
   { "name": "sundanese", "language_code": "su" },
-  { "name": "madurese", "language_code": "mad" }, //invalid lang code
-  { "name": "buginese", "language_code": "bug" }, //invalid lang code
-  { "name": "minangkabau", "language_code": "min" }, //invalid lang code
+  { "name": "madurese", "language_code": "mad", "invalid": true },
+  { "name": "buginese", "language_code": "bug", "invalid": true },
+  { "name": "minangkabau", "language_code": "min", "invalid": true },
   { "name": "guarani", "language_code": "gn" },
   { "name": "swahili", "language_code": "sw" },
-  { "name": "kikuyu", "language_code": "iu" }, //invalid lang code
-  { "name": "luhya", "language_code": "luy" }, //invlaid lang code
-  { "name": "kalenjin", "language_code": "kln" }, //invalid lang code
-  { "name": "sheng", "language_code": "shf" }, //invalid lang code
-  { "name": "dholuo", "language_code": "luo" }, //invalid lang code
+  { "name": "kikuyu", "language_code": "iu", "invalid": true },
+  { "name": "luhya", "language_code": "luy", "invalid": true },
+  { "name": "kalenjin", "language_code": "kln", "invalid": true },
+  { "name": "sheng", "language_code": "shf", "invalid": true },
+  { "name": "dholuo", "language_code": "luo", "invalid": true },
   { "name": "zulu", "language_code": "zu" },
   { "name": "xhosa", "language_code": "xh" },
   { "name": "afrikaans", "language_code": "af" },
   { "name": "vietnamese", "language_code": "vi" },
-  { "name": "tho", "language_code": "tou" }, //invalid lang code
+  { "name": "tho", "language_code": "tou", "invalid": true },
   { "name": "chinese", "language_code": "zh-CN" },
-  { "name": "tay", "language_code": "tyz" }, //invalid lang code
+  { "name": "tay", "language_code": "tyz", "invalid": true },
   { "name": "khmer", "language_code": "km" },
   { "name": "thai", "language_code": "th" },
   { "name": "lao", "language_code": "lo" }
