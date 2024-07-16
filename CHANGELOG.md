@@ -1,3 +1,7 @@
-##### 07.12.2024
+##### 16.07.2024
+
+> Dutch language addition
+
+##### 12.07.2024
 
 > Mobile translation script update

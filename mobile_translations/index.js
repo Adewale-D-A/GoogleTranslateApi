@@ -5,7 +5,7 @@ require("dotenv").config();
 // Your credentials
 const JsonEnglish = require("./original_english.json"); //json file to translate
 const CREDENTIALS = require("../credentials.json");
-const languages = require("./languages.json");
+const languages = require("../languages.json");
 // Configuration for the client
 const translate = new Translate({
   credentials: CREDENTIALS,

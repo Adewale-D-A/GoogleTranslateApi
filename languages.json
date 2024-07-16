@@ -42,5 +42,6 @@
   { "name": "tay", "language_code": "tyz", "invalid": true },
   { "name": "khmer", "language_code": "km" },
   { "name": "thai", "language_code": "th" },
-  { "name": "lao", "language_code": "lo" }
+  { "name": "lao", "language_code": "lo" },
+  { "name": "dutch", "language_code": "nl" }
 ]

@@ -150,7 +150,8 @@
     "ofllinetitle": "Download Maps for offline use",
     "downloadmap": "Warning! Selecting a high detail level will take up more space.",
     "downloadbtn": "Dowload map",
-    "downloadd": "Finished downloading Map, you are now use the app offline."
+    "downloadd": "Finished downloading Map, you are now use the app offline.",
+    "stopbtn": "Not needed"
   },
   "farm": {
     "goFarm": "go to field",
@@ -416,7 +417,8 @@
     "preparations": "Soil and Land Preparations",
     "navtitle": "Crop and disease library help",
     "navdescription": "The FarmSmarter crop and disease library is here to guide you in sustainable crop management techniques.",
-    "navdescriptiont": "There are sections of information to navigate through the growing season through to harvest. For each crop we highlight the common diseases. if you click on the disease image we will give you more detailed information on that disease and how to prevent and manage it in your crop using the most sustainable approaches.If the crop you are growing isn't shown here please let us know and we will add it to our list for future library updates"
+    "navdescriptiont": "There are sections of information to navigate through the growing season through to harvest. For each crop we highlight the common diseases. if you click on the disease image we will give you more detailed information on that disease and how to prevent and manage it in your crop using the most sustainable approaches.If the crop you are growing isn't shown here please let us know and we will add it to our list for future library updates",
+    "signin2continue": "Sign in to know more"
   },
   "disease": {
     "type": "disease type",
@@ -431,7 +433,8 @@
     "notsigneddetails": "To find out more about this disease kindly create an account or sign in",
     "diseaseResistant": "disease resistant cultivation",
     "interCropping": "intercropping suggestion",
-    "stages": "growth stages for infections"
+    "stages": "growth stages for infections",
+    "sign": "Continue"
   },
   "cropDoc": {
     "clinic": "crop clinic",
@@ -581,7 +584,13 @@
     "how-to": "how to guides",
     "troubleshoot": "troubleshoot",
     "chat": "chat with us",
-    "faqheader": "subscription questions"
+    "faqheader": "App Knowledge database",
+    "h2gheader": "youtube channel",
+    "cont2header": "If you have questions that we can't answer here, please do reach out via email. ",
+    "email": "your email address",
+    "message": "your message",
+    "send": "send message",
+    "info": "or you can email us directly: info@farmsmarter.app"
   },
   "languageScreen": {
     "selectText": "",
